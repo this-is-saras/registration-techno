@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="container">
+      <h1>Course Registration Form</h1>
+      <form action="#">
+         <div class="column">
+            <div class="input-container">
+               <label>First Name -</label>
+               <input type="text" class="input" placeholder="Enter first name" required>
+            </div>
+            <div class="input-container">
+               <label>Last Name-</label>
+               <input type="text" class="input" placeholder="Enter last name" required>
+            </div>
+         </div>
+         <div class="column">
+            <div class="input-container">
+               <label>Mobile No.-</label>
+               <input type="text" class="input" placeholder="Enter phone no." required>
+            </div>
+            <div class="input-container">
+               <label>Email Id</label>
+               <input type="email" class="input" placeholder="Enter Email id" required>
+            </div>
+         </div>
+         <div class="column">
+            <div class="gender-box">
+               <h3>Gender-</h3>
+               <div class="gender-option column">
+                    <div class="gender">
+                     <input type="radio" id="check-male" name="gender" checked>
+                     <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                     <input type="radio" id="check-female" name="gender">
+                     <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                     <input type="radio" id="check-other" name="gender">
+                     <label for="check-other">Other</label>
+                    </div>
+               </div>
+            </div>
+            <div class="input-container">
+               <label>Date of Birth-</label>
+               <input type="date" placeholder="num">
+            </div>
+            
+         </div>
+         <div class="column">
+            <div class="year">
+            <label for="year of study">Year Of study:</label>
+            <select name="year" id="year">
+               <option value="1st-year">1st Year</option>
+               <option value="2nd-year">2nd Year</option>
+               <option value="3rd-year">3rd year</option>
+               <option value="4th-year">4th year</option>
+            </select>
+            </div> 
+            <div class="city">
+            <label for="city">Select City:</label>
+   
+            <select name="city" id="city">
+              <option value="city1">Indore</option>
+              <option value="city2">Bhopal</option>
+              <option value="city3">Ujjain</option>
+              <option value="city4">Dewas</option>
+            </select> 
+            </div>
+         </div>
+         <div class="domain-box">
+            <h3>Domain-</h3>
+            <div class="domain-box column">
+                 <div class="domain">
+                  <input type="radio" id="check-1st" name="domain" checked>
+                  <label for="check-1st">Android Development</label>
+                 </div>
+                 <div class="domain">
+                  <input type="radio" id="check-2nd" name="domain">
+                  <label for="check-2nd">Game Development</label>
+                 </div>
+                 <div class="domain">
+                  <input type="radio" id="check-3rd" name="domain">
+                  <label for="check-3rd">Web Development</label>
+                 </div>
+                 <div class="domain">
+                  <input type="radio" id="check-2nd" name="domain">
+                  <label for="check-2nd">Cloud Computing</label>
+                 </div>
+                 <div class="domain">
+                  <input type="radio" id="check-3rd" name="domain">
+                  <label for="check-3rd">Cyber Security</label>
+                 </div>
+            </div>
+         </div>
+         <div class="course-type">
+            <h3>Type of course</h3>
+            <div class="course-option">
+               <div class="course">
+                  <input type="radio" id="check-2nd" name="course">
+                  <label for="check-2nd">Self Placed</label>
+                 </div>
+                 <div class="course">
+                  <input type="radio" id="check-3rd" name="course">
+                  <label for="check-3rd">Live webinar</label>
+                 </div>
+                 <div class="course">
+                  <input type="radio" id="check-2nd" name="course">
+                  <label for="check-2nd">Recoreded Classes</label>
+                 </div>
+            </div>
+         </div>
+         <div class="input-container">
+            <label>Linkedin-Link</label>
+            <input type="text" class="input" placeholder="Share your linkedin link.." required>
+         </div>
+         <div class="submit">
+            <button>Submit</button>
+         </div>
+      </form>
+
+   </div>
+</body>
+</html>
